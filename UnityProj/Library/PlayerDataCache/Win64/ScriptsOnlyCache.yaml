@@ -7,14 +7,6 @@ ScriptsOnlyBuild:
     - VineCon
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
-    UnityEditor.Graphs.dll:
-    - UnityEditor.Graphs.AnimationBlendTree.Graph
-    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
-    - UnityEditor.Graphs.AnimationStateMachine.Graph
-    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
-    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -63,35 +55,29 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 95
       Script: {instanceID: 0}
-    - Class: 96
-      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1488}
+      Script: {instanceID: 1490}
     - Class: 114
-      Script: {instanceID: 2238}
+      Script: {instanceID: 2232}
     - Class: 114
-      Script: {instanceID: 2338}
+      Script: {instanceID: 2332}
     - Class: 114
-      Script: {instanceID: 2376}
+      Script: {instanceID: 2370}
     - Class: 114
-      Script: {instanceID: 2486}
+      Script: {instanceID: 2480}
     - Class: 114
-      Script: {instanceID: 2664}
+      Script: {instanceID: 2658}
     - Class: 114
-      Script: {instanceID: 2770}
+      Script: {instanceID: 2764}
     - Class: 114
-      Script: {instanceID: 2976}
+      Script: {instanceID: 2968}
     - Class: 114
-      Script: {instanceID: 18918}
-    - Class: 114
-      Script: {instanceID: 27162}
+      Script: {instanceID: 3278}
     - Class: 115
-      Script: {instanceID: 0}
-    - Class: 136
       Script: {instanceID: 0}
     - Class: 137
       Script: {instanceID: 0}
@@ -206,22 +192,10 @@ ScriptsOnlyBuild:
     className: RawImage
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: GameBase
-    className: MeshObj
-  - hash:
-      serializedVersion: 2
       Hash: 5f170942ee57c7a568f5bcfc7521adea
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools
     className: EnumerableTestState
-  - hash:
-      serializedVersion: 2
-      Hash: b734e17d21e77fed9c00af711ded2ccb
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: GameBase
-    className: GameManager
   - hash:
       serializedVersion: 2
       Hash: a1aa98c78061c6f03a8c124cda576e67
@@ -440,12 +414,6 @@ ScriptsOnlyBuild:
     className: AudioPlayableAsset
   - hash:
       serializedVersion: 2
-      Hash: e78cf6e0e868fdcd86caea74e7fd150e
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ThirdPersonLCon
-  - hash:
-      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
@@ -468,6 +436,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: ActivationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 47fb024ab60e93eccc35de3cc90757ad
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: VSkeleton
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
@@ -548,22 +522,10 @@ ScriptsOnlyBuild:
     className: TMP_ScrollbarEventHandler
   - hash:
       serializedVersion: 2
-      Hash: 1f0e5abb0affc7d448ad7659c8f607e2
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CmaScript
-  - hash:
-      serializedVersion: 2
       Hash: 8220b46879dc5e37db1b940c938f5744
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: SignalEmitter
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Test_GameLogic
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -582,13 +544,7 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: TouchInputModule
-  - hash:
-      serializedVersion: 2
-      Hash: 47fb024ab60e93eccc35de3cc90757ad
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: VSkeleton
   platform: 19
   scenePathNames:
   - Assets/VineBlend/Vine.unity
-  playerPath: C:/Users/Chirs Ann/Desktop/Vine/VineWithBrick.exe
+  playerPath: C:/Users/Chirs Ann/Desktop/Vine/Vine.exe

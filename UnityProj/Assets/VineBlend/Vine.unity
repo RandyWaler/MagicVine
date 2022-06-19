@@ -1304,11 +1304,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 663359878733363672, guid: 5edacc04fd716584b874d0c03fbe3fb9, type: 3}
       propertyPath: roSpeedX
-      value: 60
+      value: 55
       objectReference: {fileID: 0}
     - target: {fileID: 663359878733363672, guid: 5edacc04fd716584b874d0c03fbe3fb9, type: 3}
       propertyPath: roSpeedY
-      value: 60
+      value: 55
       objectReference: {fileID: 0}
     - target: {fileID: 1128265731326957320, guid: 5edacc04fd716584b874d0c03fbe3fb9, type: 3}
       propertyPath: m_Name

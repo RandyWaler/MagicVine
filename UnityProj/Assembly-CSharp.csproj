@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{1BC99406-032C-DF25-03F3-77C96CF6DE40}</ProjectGuid>
+    <ProjectGuid>{69B6C8F0-A092-6A6A-098C-0C119DFDB7A6}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -56,24 +56,11 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\QuadTree\MathBase.cs" />
-    <Compile Include="Assets\QuadTree\QuadTree.cs" />
-    <Compile Include="Assets\QuadTree\MeshObj.cs" />
-    <Compile Include="Assets\QuadTree\GameManager.cs" />
     <Compile Include="Assets\VineBlend\Vtar.cs" />
     <Compile Include="Assets\VineBlend\VineCon.cs" />
     <Compile Include="Assets\VineBlend\VBox1.cs" />
-    <Compile Include="Assets\QuadTree\pooltest\Script\ObjPool.cs" />
     <Compile Include="Assets\VineBlend\CmaCon.cs" />
-    <Compile Include="Assets\CharacterMove\Script\ThirdPersonLCon.cs" />
-    <Compile Include="Assets\QuadTree\BaseObj.cs" />
-    <Compile Include="Assets\LearnTimeLine\CmaScript.cs" />
-    <Compile Include="Assets\QuadTree\Test_GameLogic.cs" />
     <Compile Include="Assets\VineBlend\VSkeleton.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Assets\LearnTimeLine\Shader\DefaultShader.shader" />
-    <None Include="Assets\LearnTimeLine\Shader\Default.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
